@@ -1,0 +1,10 @@
+﻿@model List<PTW.Models.Cart>
+
+@foreach (var item in Model)
+{
+    <div class="topblock2">
+        <img src="~/images/shopping.gif" alt="" width="24" height="24" class="shopping" />
+        <a href='@Url.Action("Index", "Cart")'>Shopping cart</a> <a><strong>@Model.Sum(m=>m.SoLuong)</strong> <span>sản phẩm</span></a>
+    </div>
+
+}

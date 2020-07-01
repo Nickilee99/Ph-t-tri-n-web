@@ -1,0 +1,104 @@
+﻿@model List<PTW.Models.Cart>
+@{
+    ViewBag.Title = "Cart";
+}
+@section jsFooter {
+    <script src="/Scripts/controller/cartController.js"></script>
+}
+
+<section id="cart_items">
+    <div class="container">
+        <div class="breadcrumbs">
+
+            <h1 class="active" style="margin-left:100px "><h1>Shopping Cart</h1></h1>
+            <br />
+
+        </div>
+        @if (Model == null || Model.Count == 0)
+        {
+            <span style="margin-left:100px; color: red; margin-top: 500px;"><h1>Shopping Cart is empty !</h1></span>
+        }
+        else
+        {
+            <div @*class="table-responsive cart_info"*@>
+                <table @*class="table table-condensed"*@ width="" cellspacing="5" cellpadding="5" style="border: 1px solid black;">
+                    <thead>
+                        <tr class="cart_menu">
+                            <td class="image">Hinh Anh</td>
+                            <td @*class="description"*@>Ten san pham</td>
+                            <td @*class="price"*@>Gia goc</td>
+                            <td @*class="quantity"*@>So luong</td>
+                            <td @*class="total"*@>Tong Cong</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="cart_product" style=" width:90px">
+                                    <a href=""><img src="@item.HinhAnh" width="70" height="90"></a>
+                                </td>
+                                <td class="cart_description" style="text-align:left; width:150px">
+                                    <h4><a href='@Url.Action("ProductDetail","Category",new { id=item.IDSP})'>@item.Name </a></h4>
+                                    @*<p>ID: @item.IDSP</p>*@
+                                </td>
+                                <td class="cart_price" style=" width:50px">
+                                    <h5><a href='@Url.Action("ProductDetail","Category",new { id=item.IDSP})'>@item.GiaGoc</a></h5>
+
+                                </td>
+                                @*<td class="cart_quantity">
+                                        <div class="cart_quantity_button">
+
+                                            <input class="cart_quantity_input" type="number" name="quantity" value="@item.SoLuong" autocomplete="off" size="2">
+
+                                        </div>
+                                    </td>*@
+
+
+                                <td style="width:130px">
+                                    <form action="@Url.Action("Updated",new { id = item.IDSP})" method="get">
+                                        <input type="hidden" name="IDSP" value="@item.IDSP" />
+                                        <input type="number" min="1" step="1" name="Soluongmoi" class="txtQuantity" data-id="@item.IDSP" style="height: 20px; width:50px" value="@item.SoLuong" />
+                                        <button type="submit" class="btn btn-primary btn-sm"> Cập nhật </button>
+                                    </form>
+                                </td>
+                                <td class="cart_total" style="width:60px">
+                                    <p class="cart_total_price">VND @(item.SoLuong * item.GiaGoc) </p>
+                                </td>
+                                <td class="cart_delete">
+                                    <a class="cart_quantity_delete" href="@Url.Action("Deleted",new { id = item.IDSP})" onclick="return confirm('Bạn có chắc muốn xóa sản phẩm này?');" class="btn btn-danger btn-sm" )><i class="fa fa-times"></i>X</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                @*<td><a class="cart_quantity_button" href="@Url.Action("Updated",new { IDSP = item.SoLuong } )">Update</a></td>*@
+
+
+                            </tr>
+
+                        }
+
+                        <tr>
+
+                            <td> <p style="text-align:right">Total:</p></td>
+                            <td><p class="cart_total_price">@Model.Sum(m => m.ThanhTien)</p></td>
+                        </tr>
+                        <tr>
+                            <button id="btnCountinue" class="btn">Countinue to buy</button> &nbsp;
+                            <button id="btnUpdate" class="btn">Update cart</button> &nbsp;
+                            <button id="btnDelete" class="btn">Delete cart</button> &nbsp;
+                            <a id="btnPayment" href="@Url.Action("CheckOut","Cart")" class="btn">PAY NOW!</a>
+                        </tr>
+
+
+
+                    </tbody>
+                </table>
+                @*<a class="cart_quantity_button" href="@Url.Action("Updated",new { IDSP = item.SoLuong } )">Update</a>*@
+            </div>
+            @*<button class="cart-update" name="Updated" onclick=""*@
+        }
+    </div>
+</section>
+<!--/#cart_items-->

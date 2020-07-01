@@ -1,0 +1,46 @@
+﻿@model List<PTW.Models.DMSP>
+
+    <ul id="navigation">
+        @*@foreach (var cat in Model)
+        {
+            <li class="color"><a href="#">@cat.TenDanhMuc</a></li>
+            <li><a href="#">@cat.TenDanhMuc</a></li>
+        }*@
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            if (i % 2 == 0)
+            {
+                <li class="color"><a href="@Url.Action("getCategory","Category",new {id= Model[i].IDDM })">@Model[i].TenDanhMuc</a></li>
+            }
+            else
+            {
+                <li><a href="@Url.Action("getCategory","Category",new {id= Model[i].IDDM })">@Model[i].TenDanhMuc</a></li>
+            }
+
+        }
+        @*<li class="color"><a href="#">Dolor sit amet</a></li>
+        <li><a href="#">Consetetur sadipscing</a></li>
+        <li class="color"><a href="#">Seddiam</a></li>
+        <li><a href="#">Nonumy eirmod</a></li>
+        <li class="color"><a href="#">Dolor sit amet</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li class="color"><a href="#">Dolor sit amet</a></li>
+        <li><a href="#">Seddiam</a></li>
+        <li class="color"><a href="#">Nonumy eirmod</a></li>
+        <li><a href="#">Consetetur sadipscing</a></li>
+        <li class="color"><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Nonumy eirmod</a></li>
+        <li class="color"><a href="#">Dolor sit amet</a></li>
+        <li><a href="#">Seddiam</a></li>
+        <li class="color"><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Nonumy eirmod</a></li>
+        <li class="color"><a href="#">Seddiam</a></li>
+        <li><a href="#">Consetetur sadipscing</a></li>
+        <li class="color"><a href="#">Nonumy eirmod</a></li>
+        <li><a href="#">Dolor sit amet</a></li>
+        <li class="color"><a href="#">Seddiam</a></li>
+        <li><a href="#">Nonumy eirmod</a></li>
+        <li class="color"><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Dolor sit amet</a></li>
+        <li class="color"><a href="#">Seddiam</a></li>*@
+    </ul>

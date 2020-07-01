@@ -1,0 +1,22 @@
+﻿@model PTW.Models.DonHang
+@{
+    ViewBag.Title = "Order Success";
+}
+
+    <div style="font-size:150%">
+        <ul>
+            <h1  style="text-align:center; color:blue">BILL</h1>
+            <hr />
+            <br />
+            <li>Customer name: <b> @Model.TenKhachHang</b> </li>
+            <li>Address: @Model.DiaChiKhachHang</li>
+            <li>Date Time: @Model.NgayLapDon</li>
+        </ul>
+
+    </div>
+<br />
+<br />
+
+<div class="center_content"> 
+    <h3>Your order has been placed. Click to countinue to buy more --> <a href="@Url.Action("Index","Home")">Here</a></h3>
+</div>

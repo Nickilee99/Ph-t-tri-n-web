@@ -1,0 +1,93 @@
+﻿@model PTW.Models.UserModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h1 style="color:mediumblue; text-align:center">REGISTER FOR NEW ACCOUNT NOW !!!</h1>
+<hr />
+<br />
+<br />
+@using (Html.BeginForm("Register", "User", FormMethod.Post))
+{
+
+
+<table align="center">
+    <tr>
+        <th style="width:150px" align="right">Email Address<span style="color: red">*</span>:</th>
+        <th>
+            @Html.EditorFor(m => m.email, new { @class = "form-control" })
+        </th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>
+            @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger" })
+        </th>
+    </tr>
+    <tr>
+        <th style="width:150px" align="right">UserName<span style="color: red">*</span>:</th>
+        <th>
+            @Html.TextBoxFor(m => m.username, htmlAttributes: new { @class = "form-control" })
+        </th>
+    <tr>
+        <th></th>
+        <th>
+            @Html.ValidationMessageFor(m => m.username, "", new { @class = "text-danger" })
+            <font>@ViewBag.thongbao</font>
+        </th>
+    </tr>
+    <tr>
+        <th style="width:150px" align="right">Password<span style="color: red">*</span>:</th>
+        <th>
+            @Html.PasswordFor(m => m.password, new { @class = "form-control" })
+        </th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>
+            @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })
+        </th>
+    </tr>
+    <tr>
+        <th style="width:150px" align="right">Confirm Password<span style="color: red">*</span>:</th>
+        <th>
+            @Html.PasswordFor(m => m.confirmpassword, new { @class = "form-control" })
+
+        </th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>
+            @Html.ValidationMessageFor(m => m.confirmpassword, "", new { @class = "text-danger" })
+        </th>
+    </tr>
+    <tr>
+        <th style="width:150px" align="right">Name<span style="color: red">*</span>:</th>
+        <th> @Html.EditorFor(m => m.name, new { @class = "form-control" })</th>
+    </tr>
+    <tr>
+        <th style="width:150px" align="right">Phone Number<span style="color: red">*</span>:</th>
+        <th> @Html.EditorFor(m => m.sdt, new { @class = "form-control" })</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th>
+            @Html.ValidationMessageFor(m => m.sdt, "", new { @class = "text-danger" })
+        </th>
+    </tr>
+    <tr>
+        <th style="width:150px" align="right">Address<span style="color: red">*</span>:</th>
+        <th> @Html.TextAreaFor(m => m.address, new { @class = "form-control" })</th>
+    </tr>
+    <tr>
+        <th></th>
+        <th><button type="submit" class="btn btn-primary"><img src="~/images/signup.jfif" alt="" width="75" height="30" /></button></th>
+    </tr>
+</table>
+    
+}
+
+
+
+
+

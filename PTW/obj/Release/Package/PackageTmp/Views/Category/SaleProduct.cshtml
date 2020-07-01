@@ -1,0 +1,18 @@
+﻿@model List<PTW.Models.SanPham>
+@{
+    ViewBag.Title = "Sale Product";
+}
+<h1>Sale Product</h1>
+<hr/>
+<br />
+<br />
+@foreach (var pro in Model)
+{
+    <div class="item">
+        <img src="@pro.HinhAnh" alt="" width="124" height="90" />
+        <a href='@Url.Action("ProductDetail","Category",new { id=pro.IDSP})' class="name">@pro.Name</a>
+        <span>@pro.GiaGoc</span>
+        <a href="@pro.HinhAnh"><img src="~/images/zoom.gif" alt="" width="53" height="19" /></a>
+        <a href="@Url.Action("AddtoCart","Cart", new {id = pro.IDSP })"><img src="~/images/cart.gif" alt="" width="71" height="19" /></a>
+    </div>
+}

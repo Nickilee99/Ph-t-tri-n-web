@@ -1,0 +1,115 @@
+C:\Users\TTC\source\repos\PTW\PTW\bin\PTW.dll.config
+C:\Users\TTC\source\repos\PTW\PTW\bin\PTW.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\PTW.pdb
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\csc.exe
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\csc.exe.config
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\csc.rsp
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\csi.exe
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\csi.rsp
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\System.AppContext.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\vbc.exe
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\vbc.exe.config
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\vbc.rsp
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\VBCSCompiler.exe
+C:\Users\TTC\source\repos\PTW\PTW\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TTC\source\repos\PTW\PTW\bin\Antlr3.Runtime.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\Newtonsoft.Json.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Helpers.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Mvc.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Optimization.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Razor.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.WebPages.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.WebPages.Razor.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\WebGrease.dll
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Helpers.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Mvc.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Optimization.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.Razor.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.WebPages.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\System.Web.WebPages.Razor.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\Newtonsoft.Json.xml
+C:\Users\TTC\source\repos\PTW\PTW\bin\Antlr3.Runtime.pdb
+C:\Users\TTC\source\repos\PTW\PTW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TTC\source\repos\PTW\PTW\obj\Debug\PTW.csprojAssemblyReference.cache
+C:\Users\TTC\source\repos\PTW\PTW\obj\Debug\PTW.csproj.CopyComplete
+C:\Users\TTC\source\repos\PTW\PTW\obj\Debug\PTW.dll
+C:\Users\TTC\source\repos\PTW\PTW\obj\Debug\PTW.pdb
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\PTW.dll.config
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\PTW.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\PTW.pdb
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\csc.exe
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\csc.exe.config
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\csc.rsp
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\csi.exe
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\csi.rsp
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\System.AppContext.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\System.Collections.Immutable.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\System.IO.FileSystem.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\System.Reflection.Metadata.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\vbc.exe
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\vbc.exe.config
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\vbc.rsp
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\VBCSCompiler.exe
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\roslyn\VBCSCompiler.exe.config
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Antlr3.Runtime.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\EntityFramework.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\EntityFramework.SqlServer.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Microsoft.Web.Infrastructure.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Newtonsoft.Json.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Helpers.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Mvc.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Optimization.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Razor.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.WebPages.Deployment.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.WebPages.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.WebPages.Razor.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\WebGrease.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\EntityFramework.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\EntityFramework.SqlServer.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Helpers.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Mvc.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Optimization.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.Razor.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.WebPages.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.WebPages.Deployment.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\System.Web.WebPages.Razor.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Newtonsoft.Json.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Antlr3.Runtime.pdb
+D:\HK 1933\Phát triển Web\PTW\PTW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HK 1933\Phát triển Web\PTW\PTW\obj\Debug\PTW.csprojAssemblyReference.cache
+D:\HK 1933\Phát triển Web\PTW\PTW\obj\Debug\PTW.csproj.CoreCompileInputs.cache
+D:\HK 1933\Phát triển Web\PTW\PTW\obj\Debug\PTW.csproj.CopyComplete
+D:\HK 1933\Phát triển Web\PTW\PTW\obj\Debug\PTW.dll
+D:\HK 1933\Phát triển Web\PTW\PTW\obj\Debug\PTW.pdb
